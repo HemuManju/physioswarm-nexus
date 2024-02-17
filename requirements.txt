@@ -1,0 +1,8 @@
+feather_format==0.4.1
+mne==1.6.1
+numpy==1.26.4
+pandas==1.4.4
+pyxdf==1.16.5
+PyYAML==6.0.1
+setuptools==68.2.2
+ujson==5.9.0

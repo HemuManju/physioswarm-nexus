@@ -1,0 +1,23 @@
+# Global parameters
+
+subjects: ['2001']
+
+# Sessions/Difficulty type
+session: '1'
+run: '001'
+tasks:
+  {
+    'S001': 'Baseline',
+    'S002': 'StaticRed',
+    'S003': 'DynamicRed',
+    'S004': 'StaticRedSmoke',
+    'S005': 'DynamicRedSmoke',
+  }
+recorded_data_types: ['eeg']
+data_overwrite: True
+##---------------------------------------------------------------------##
+# Initial cleaning for B-Alert
+# Data path
+raw_xdf_path: 'data/raw/'
+processed_data_path: 'data/processed/offset/'
+#
